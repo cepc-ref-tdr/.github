@@ -14,7 +14,7 @@ git clone git@github.com:cepc-ref-tdr/TDR_main.git
 Run build.sh:
 ```bash
 cd TDR_main
-./build.sh
+bash ./build.sh
 ```
 
 ## How to register your chapter?
@@ -26,3 +26,4 @@ function cepc-ref-tdr-repos-dirs() {
 ```
 
 The first part is the repo name. The second part is the folder to be linked under build directory. Ask Tao to upload your chapter. 
+
