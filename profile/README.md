@@ -8,7 +8,7 @@ Please send your GitHub account to Tao Lin to get the read permission.
 
 Get the main project:
 ```bash
-git clone git@github.com:cepc-ref-tdr/TDR_main.git
+git clone --recurse-submodules git@github.com:cepc-ref-tdr/TDR_main.git
 ```
 
 Run build.sh:
@@ -26,4 +26,5 @@ function cepc-ref-tdr-repos-dirs() {
 ```
 
 The first part is the repo name. The second part is the folder to be linked under build directory. Ask Tao to upload your chapter. 
+
 
