@@ -27,4 +27,9 @@ function cepc-ref-tdr-repos-dirs() {
 
 The first part is the repo name. The second part is the folder to be linked under build directory. Ask Tao to upload your chapter. 
 
-
+## Update the src only repo
+```bash
+git clone git@github.com:cepc-ref-tdr/TDR_src_readonly.git
+rm -rf TDR_src_readonly/chap*
+BLD_DIR_NAME=TDR_src_readonly SRC_MODE=cp BLD_MODE=skip bash build.sh
+```
